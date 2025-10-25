@@ -15,12 +15,12 @@
 
 | Problem | Difficulty | Pattern | Solution |
 |---------|------------|---------|----------|
-| Two Sum | Easy | Opposite Direction | [Link](Week-1-Two-Pointers/TwoSumSorted.java) |
-| Remove Duplicates | Easy | Same Direction | [Link](Week-1-Two-Pointers/RemoveDuplicates.java) |
-| Valid Palindrome | Easy | String + Two Pointer | [Link](Week-1-Two-Pointers/ValidPalindrome.java) |
-| Container Most Water | Medium | Area Maximization | [Link](Week-1-Two-Pointers/ContainerWithMostWater.java) |
-| Three Sum | Medium | Nested Two Pointer | [Link](Week-1-Two-Pointers/ThreeSum.java) |
-| Move Zeroes | Easy | In-place Modification | [Link](Week-1-Two-Pointers/MoveZeroes.java) |
+| Two Sum | Easy | Opposite Direction | [Link](Week01_TwoPointerProblems/QA_TwoSum.java) |
+| Remove Duplicates | Easy | Same Direction | [Link](Week01_TwoPointerProblems/QB_RemoveDuplicates.java) |
+| Valid Palindrome | Easy | String + Two Pointer | [Link](Week01_TwoPointerProblems/QC_ValidPalindrome.java) |
+| Container Most Water | Medium | Area Maximization | [Link](Week01_TwoPointerProblems/QD_ContainerWithMostWater.java) |
+| Three Sum | Medium | Nested Two Pointer | [Link](Week01_TwoPointerProblems/QE_ThreeSum.java) |
+| Move Zeroes | Easy | In-place Modification | [Link](Week01_TwoPointerProblems/QF_MoveZeros.java) |
 
 ### 🔄 Week 2: Stack & Queue (Oct 25-31, 2025)
 - **Status:** In Progress
