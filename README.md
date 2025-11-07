@@ -8,7 +8,7 @@ Welcome to my DSA learning journey! This repository contains well-documented sol
 
 | Week | Topic | Status | Confidence |
 |------|-------|--------|-----------|
-| Week 1 | Array Fundamentals | ✅ Completed | - |
+| Week 1 | Array Fundamentals | ✅ Completed | High |
 | Week 2 | Stack Data Structure | ✅ Completed | High |
 | Week 3 | Queue Data Structure | ✅ Completed | Good |
 | Week 4 | Revision & Mock Interview | ✅ Completed | 8/10 |
