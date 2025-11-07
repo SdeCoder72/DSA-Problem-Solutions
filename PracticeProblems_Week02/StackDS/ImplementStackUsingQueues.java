@@ -36,14 +36,6 @@ class MyStack {
     public int size() {
         return q1.size();
     }
-
-    //Display
-//    public void display() {
-//        Queue<Integer> temp = q1;
-//        while(!temp.isEmpty()) {
-//            System.out.print(temp.remove() + " ");
-//        }
-//    }
 }
 
 public class ImplementStackUsingQueues {
@@ -53,14 +45,13 @@ public class ImplementStackUsingQueues {
         s.push(8);
         s.push(10);
         s.push(64);
-//        s.display();  //ERROR
         System.out.println(s.size());
         s.pop();
         s.top();
-//        s.display();
         Queue<Integer> q = new LinkedList<>();
 
     }
 }
+
 
 
