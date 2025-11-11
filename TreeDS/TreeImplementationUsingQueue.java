@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class TreeImplementationUsingQueue {
-    static class Node{
+     public static class Node{
         int data;
         Node right;
         Node left;
@@ -15,6 +15,34 @@ public class TreeImplementationUsingQueue {
             right = null;
             left = null;
         }
+    }
+    // Traversal
+    public static void preOrder(Node root) {  // N L R
+        if(root == null) return;
+        // print
+        System.out.print(root.data + " ");
+        // go left
+        preOrder(root.left);
+        // go right
+        preOrder(root.right);
+    }
+    public static void inOrder(Node root) {  // L N R
+        if(root == null) return;
+        // go left
+        inOrder(root.left);
+        // print
+        System.out.print(root.data + " ");
+        // go right
+        inOrder(root.right);
+    }
+    public static void postOrder(Node root) {  // L R N
+        if(root == null) return;
+        // go left
+        postOrder(root.left);
+        // go right
+        postOrder(root.right);
+        // Node
+        System.out.print(root.data + " ");
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -39,9 +67,13 @@ public class TreeImplementationUsingQueue {
                 temp.right = new Node(right);
                 q.add(temp.right);
             }
-            System.out.println("Queue became: " + q);
         }
-
+        preOrder(root);
+        System.out.println();
+        inOrder(root);
+        System.out.println();
+        postOrder(root);
+        System.out.println();
     }
 }
 
