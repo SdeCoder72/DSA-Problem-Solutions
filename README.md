@@ -18,7 +18,7 @@ Welcome to my DSA learning journey! This repository contains well-documented sol
 
 ## Topics Covered
 
-### ✅ Week 1: Two Pointers Pattern (Oct 18-24, 2025)
+### ✅ Week 1: Two Pointers Pattern
 - **Problems:** 6
 - **Difficulty:** Easy to Medium  
 - **Key Learning:** Pattern recognition, Optimization mindset
