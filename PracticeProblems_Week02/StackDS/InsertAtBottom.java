@@ -11,6 +11,18 @@ public class InsertAtBottom {
         int x = 6;
         System.out.println(st);
         System.out.println(insertAtBottom(st, x));
+        insertAtBottomRecursion(st, 78);
+        System.out.println(st);
+    }
+
+    private static void insertAtBottomRecursion(Stack<Integer> st, int i) {
+        if(st.isEmpty()){
+            st.push(i);
+            return;
+        }
+        int ele = st.pop();
+        insertAtBottomRecursion(st, i);
+        st.push(ele);
     }
 
     private static Stack<Integer> insertAtBottom(Stack<Integer> st, int x) {
@@ -25,3 +37,4 @@ public class InsertAtBottom {
         return st;
     }
 }
+
